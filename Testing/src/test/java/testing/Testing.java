@@ -25,7 +25,7 @@ public class Testing {
 		  //System.setProperty("webdriver.gecko.driver", "/usr/local/bin/geckodriver");
 		  System.setProperty("webdriver.gecko.driver", "E:\\backup\\geckodriver-v0.21.0-win64\\geckodriver.exe");
 		  driver= new FirefoxDriver();
-		  driver.get("http://localhost:8090/manager/TestWebapp");
+		  driver.get("http://localhost:8090/TestWebapp");
 		  
 	  }
 
